@@ -1,0 +1,28 @@
+---
+description: Project context for Ext B Black Pond Brews — client, purpose, client-data rule, how to talk to the client, and where the private details live
+alwaysApply: true
+---
+
+# Ext B — Black Pond Brews
+
+## Client
+- Black Pond Brews LLC. Primary contact: Michael Teed, Co-Owner / Head of Revenue.
+
+## Purpose
+- Build marketing and email automation tools for the brewery.
+
+## Team and status
+- Team to be assigned; club lead Cayden Auyang. Update this line and `.github/CODEOWNERS` when developers are assigned. Discovery complete; Phase 1 not yet chosen, so confirm scope with Cayden before building.
+
+## Client data rule
+- **Never commit client data. Sales PDFs, exports, spreadsheets, customer lists, and email lists stay in a gitignored data/ folder or in Drive, never in git.** See `data/README.md`. This repository is public.
+- Customer names and email addresses are personal data belonging to the brewery's customers.
+- Keep contact details, discovery notes, and client requirements out of code comments, tests, docs, commit messages, and PR descriptions.
+
+## Talking to the client
+- In anything the client will see (emails, demos, docs you hand over), describe the work as a time-saving tool. Don't lead with "AI", and don't name the school's faculty projects.
+- Don't promise scope or timelines without Cayden.
+
+## Where the details are
+- Discovery notes, contacts, and client requirements live in the club's private running doc (link in the Civic AI Club Google Drive). Do not copy them into this repo.
+- If you need a requirement that isn't already expressed in the code, ask the developer to check the running doc instead of guessing. When a requirement becomes code, write the code; don't paste the notes, examples, or client data into comments.
